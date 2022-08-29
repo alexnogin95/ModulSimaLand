@@ -1,0 +1,14 @@
+/*.arteast_menu_icon {background-position: center -1400px;}*/
+.arteast_simaland_icon {
+    background-image: url(./icons/arteast.integration/simaland.png);
+    background-repeat: no-repeat;
+    background-position: center 3px;
+    background-size: 19px;
+}
+#global_menu_arteast_digital > .adm-main-menu-item-icon {
+    background-image: url(./icons/arteast.integration/arteast.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 44px;
+    filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.35));
+}

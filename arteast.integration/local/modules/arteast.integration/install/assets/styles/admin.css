@@ -1,0 +1,104 @@
+.adm-info-message {
+    margin-bottom:0!important;
+}
+
+.info-message {
+    display: flex;
+    gap: 20px;
+}
+.info-message .loader{
+    font-size: 0;
+    line-height: 0;
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    background-image: url("/bitrix/images/arteast.integration/loader.gif");
+    filter: brightness(0.5);
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+}
+
+.items input[type="checkbox"] {
+    margin-top: -2px;
+}
+
+.category-selector {
+    display: flex;
+    gap: 30px;
+}
+
+.category-selector .block {
+    width: calc(100% / 2);
+    border: 1px solid #e0e8ea;
+    padding: 20px;
+}
+
+.category-selector .block .items {
+    display: flex;
+    flex-flow: column;
+    gap: 8px
+}
+
+.category-selector .block .items .item {}
+
+.category-selector .block .items .item label {
+    width: auto !important
+}
+
+.category-selector .block .items>ul:first-child {
+    margin-top: 0
+}
+
+.items>ul {
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.items ul {
+    padding: 0;
+    margin-left: 30px;
+    list-style: none;
+}
+
+.items ul li[class^="level_"] {
+    display: none;
+}
+
+.items ul li .button .name {
+    padding: 10px 12px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    /* font-weight: 700; */
+    background: #e0e8ea;
+    /* background: #c3dfce; */
+    font-size:14px;
+    cursor: pointer;
+    width: calc(100% - 25px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.items ul li .button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.category-moving {}
+
+.category-moving .item {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.category-moving .item>select {
+    width: calc(100% / 2);
+}
+
+.category-moving .item>div {
+    width: calc(100% / 2);
+    font-weight: 700;
+}
